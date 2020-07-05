@@ -1,0 +1,712 @@
+/* CSS Document */
+@font-face {
+	src: url("../font/GOODDC__.TTF");
+	font-family: gooddog;
+}
+*{
+	margin: 0 ;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+#wrapper{
+	height: 8070px;;
+	width: 1440px;
+	margin: 0 auto;
+	background-color:rgba(7,7,7,0.90);
+/*	background: url()*/
+/*	background: red;*/
+}
+header{
+	width: 1440px;
+	height: 142px;
+/*	background: yellow;*/
+	position: absolute;
+	z-index: 40;
+}
+header ul{
+	list-style: none;
+	margin-right: 63px;
+	padding-top: 63px;
+	font-size: 26px;
+	font-weight: 400;
+	float: right;
+}
+header ul li a{
+	text-decoration: none;
+	color:#afc67b;	
+}
+header ul li a:hover{
+	color:white;
+	text-shadow: 1px 1px 2px white;
+}
+header ul li{
+	float: left;
+	text-decoration: none;
+}
+#list2{
+	margin-left: 72px;
+
+}
+#list3{
+	margin-left: 40px;
+}
+#list4{
+	margin-left: 28px;
+}
+/*434 594*/
+#page1{
+	height: 1100px;
+	width: 1440px;
+/*	position: absolute;*/
+	z-index: 8;
+	background: url("../image/background1.png");
+	background-size: cover;
+}
+#content1{
+/*	background: red;*/
+	height: 594px;
+	width: 434px;
+	margin-top: 165px;
+	float: right;
+	margin-right: 110px;
+	color: #9baf6d;
+}
+/*149 124*/
+#logo{
+/*
+	width: 149px;
+	height: 124px;
+*/
+	width: 150px;
+	height: 124px;
+	background-size: cover;
+}
+#logo img{
+	width: 150px
+}
+#tx-1{
+	margin-top:114px;
+}
+#tx-1 p{
+	font-weight: 400;
+	font-size: 38px;
+}
+#tx-1 h1{
+	font-weight: 700;
+	font-size: 55px;
+/*	font-size: 18.78pt;*/
+/*	margin-top:27px;*/
+}
+#bt1{
+	margin-top: 171px;
+	background-color: #4c5140;
+/*	opacity: 0.5;*/
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 34px;
+	cursor: pointer;
+}
+#bt1:hover{
+	background: white;
+	color: #4c5140;
+}
+#page2{
+	height: 490px;
+	width: 1440px; 
+	background-color:#212121;
+	z-index: 10;
+/*	position: absolute;*/
+/*	margin-top: 1000px;*/
+}
+
+#content2{
+	height: 144px;
+	width: 537px;
+/*	background: aqua;*/
+	float: left;
+	margin-top: 164px;
+	margin-left: 98px;
+}
+#cook{
+	font-family: gooddog;
+	color: #afc67b;
+	font-size: 28px;
+}
+#cook-content{
+	margin-top: 48px;
+	font-family: 'Montserrat', sans-serif;
+	width: auto;
+	height: 76px;
+	font-size: 19px;
+	font-weight: 300;
+	color: white;
+}
+#img-2{
+	float: right;
+	width: 736px;
+	height: 490px;
+	background: url("../image/Vector Smart Object (Double Click to Edit).png");
+	background-size: cover;
+}
+/*6512*/
+#pattern-bg{
+	background: url(../image/background.png);
+	background-size: cover;
+	position: absolute;
+	z-index: 6;
+	display: flex;
+	height: 7280px;
+	width:1440px;
+	margin-top: 840px;
+}
+#page3{
+	height: 1583px;
+	width: 1440px;
+}
+#tab3{
+	width: 1440px;
+	height: 376px;
+	background-color: #45493b;
+}
+.col{
+	width: 1440px;
+	height: 185px;
+	margin-left: 91px;
+}
+.column{
+	float: left;
+	width: 309px;
+	height: 185px;
+	margin-left: 88px;
+	color: white;
+	margin-top: 98px;
+}
+.column h2{
+	font-family: "GoodDog Cool", "GoodDog Plain";
+	font-size: 20px;
+	margin-top: 29px;
+}
+.column p{
+	font-weight: 300;
+	font-size: 16px;
+	margin-top: 39px;
+}
+#square{
+	width: 1088px;
+	height: 1027.5px;
+	background-color: #45493b;
+	margin-top: 90px;
+	margin-left: 179px;
+	text-align: center;
+}
+#square h1{
+	font-family: "GoodDog Cool", "GoodDog Plain";
+	color:#afc67b;
+	font-size: 27px;
+	padding-top: 64px;
+}
+#to{
+	font-weight: 300;
+	font-size: 37px;
+	color: white;
+}
+#we-bring{
+	width: 484px;
+	height: 80px;
+	margin-left: 310px;
+}
+#total{
+	height: 823px; 
+	width: 1096px;
+	margin-top: 125px;
+}
+.row1{
+	width: 1088px;
+	height: 274px;
+/*	background: red;*/
+	margin-top: 86px;
+	margin-top: 0;
+
+}
+.row2{
+	width: 1088px;
+	height: 274px;
+/*	background: blue;*/
+}
+.row3{
+	width: 1088px;
+	height: 274px;
+/*	background: aqua;*/
+}
+.column-1{
+	width: 272px;
+	height: 274px;
+	float: left;
+	color: red;
+}
+.column-1 h2{
+	font-family: "GoodDog Cool", "GoodDog Plain";
+	font-size: 20px;
+	color:#afc67b;
+	margin-top: 73px;
+}
+.column-1 img{
+	width: 272px;
+	height: 274px;
+}
+.plate{
+	font-size: 15px;
+	color: white;
+	width: 170px;
+	margin-left: 50px;
+	margin-top: 30px;
+	font-weight: 300;
+}
+.column-1 h3{
+	font-family: "GoodDog Cool", "GoodDog Plain";
+	color:white;
+	font-size: 18px;
+	margin-top: 27px;
+}
+#tab4{
+	width: 1440px;
+	height: 400px;
+	background-color: #45493b;
+	text-align: center;
+/*	padding-top: 118px;*/
+}
+#tab4 h3{
+	font-family: "GoodDog Cool", "GoodDog Plain";
+	color: #a1b573;
+	font-size: 30px;
+	padding-top: 118px;
+}
+#tab4 p{
+	font-size: 16px;
+	color: white;
+	width: 698px;
+	margin-left: 372px;
+	margin-top: 45px;
+	font-weight: 300;
+}
+#quoste{
+	height: 30px;
+	width: 80px;
+	background-size: cover;
+}
+#quoste img{
+	width: 80px;
+	margin-top:57px;
+	margin-left: 680px;
+}
+#tranparentClass {
+/*	opacity:1;*/
+/*    display:block;*/
+    position:relative;
+	margin-top: 238px;
+/*    top:3000px;*/
+	widows: 1440px;
+	z-index: 400000;
+	height: 630px;
+/*    left:0;*/
+    background-color:#3e4136;
+	
+/*	margin-top: 3000px;*/
+}
+#tranparentClass h1{
+	font-family: "GoodDog Cool", "GoodDog Plain";
+	font-size: 46px;
+	color: #a1b573;
+	padding-top: 50px;
+	text-align: center;
+}
+#tranparentClass p{
+	font-weight: 300;
+	font-size: 34px;
+	color: white;
+	text-align: center;
+	
+}
+#page4{
+	z-index: 10;
+	position: absolute;
+	height: 1730px;
+	width: 1440px;
+	background-size: cover;
+	background-image: url("../image/Place Your Design Here (Double Click to Edit)12.png");
+	opacity: 0.9;
+	 min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+/*  background-size: cover;*/
+}
+#collum-left{
+	width: 425px;
+	height: 366px;
+	float: left;
+/*	background:aqua;*/
+	margin-top: 38px;
+	margin-left: 100px;
+	position: relative;
+}
+#collum-right{
+	float: right;
+	width: 425px;
+	height: 366px;
+/*	background:aqua;*/
+	margin-top: 38px;
+	margin-right: 150px;
+/*	position: relative;*/
+}
+/*425 85*/
+/*1730*/
+.sushi-1{
+	width: 425px;
+	height: 85px;
+/*	background: red;*/
+}
+.sushi-2{
+	width: 425px;
+	height: 85px;
+/*	background: yellow; */
+	margin-top:56px;
+}
+.icon-sushi{
+	width: 85px;
+	height: 85px;
+/*	background: purple;*/
+	float: left;
+}
+.sushi-1 h2{
+	font-family: "GoodDog Cool", "GoodDog Plain";
+	font-size: 21px;
+	color: white;
+	padding-top: 11px;
+	margin-left: 15px;
+	
+}
+
+.sushi-2 h2{
+	font-family: "GoodDog Cool", "GoodDog Plain";
+	font-size: 21px;
+	color: white;
+	padding-top: 11px;
+	margin-left: 15px;
+}
+.icon-text{
+	font-size: 11px;
+	font-weight: 300;
+	font-family: 'Montserrat', sans-serif;
+	width: 335px;
+	margin-top: 10px;
+	margin-left: 10px;
+	color: white;
+	line-height: 16px;
+}
+#page5{
+	height: 454px;
+	width: 1440px;
+/*	background: blue;*/
+	margin-top:1730px;
+	
+}
+#page6{
+	height: 865px;
+	width: 1440px;
+	background: url("../image/Place Your Design Here (Double Click to Edit)14.png");
+	background-size: cover;
+	min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+/* 	background-size: cover;*/
+}
+#page7{
+	height: 1162px;
+	width: 1440px;
+/*	background: yellow;*/
+	
+}
+#page7 h1{
+	font-family: "GoodDog Cool", "GoodDog Plain";
+	font-size: 44px;
+	color: #9cb06f;
+	text-align: center;
+	padding-top: 50px;
+}
+#page7 p{
+	font-size: 35px;
+	color: white;
+	font-weight: 300;
+	text-align: center;
+}
+.box-menu{
+/*	340 499*/
+	height: 499px;
+	width: 339px;
+	margin-left: 34px;
+	background: white;
+/*	margin-top: 57px;*/
+	float: left;
+}
+#menu-pg7{
+	width: 1263px;
+	position: relative;
+	height: 499px;
+	margin-top: 57px;
+	margin-left: 140px;
+}
+.img-menu{
+	width: 340px;
+	height: 302px;
+	background-size: cover;
+}
+.box-menu h3{
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 26px;
+	color: #555555;
+	margin-left: 30px;
+}
+.box-menu h2{
+	font-size: 15px;
+	margin-top: 27px;
+	font-weight: bold;
+	margin-left: 30px;
+}
+.box-menu h4{
+	font-size: 15px;
+	font-weight: 300;
+	width: 254px;
+	margin-left: 30px;
+}
+.bt1{
+	margin-left: 30px;
+	margin-top: 29px;
+	font-size: 12px;
+	font-weight: bold;
+	border-bottom: 7px solid #afc67b;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background-color: transparent;
+}
+
+.bt1:hover{
+	border-bottom: 15px solid #afc67b;
+}
+#end{
+	height: 292px;
+	width: 1440px;
+/*	background: blue;*/
+	margin-top: 176px;
+	position: relative;
+}
+#text-end{
+	width: 686px;
+	height: 292px;
+/*	background: red;*/
+	margin-left: 378px;
+}
+#text-end img{
+	margin-top: 5px;
+}
+#text-end h6{
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 11px;
+	color: #aac078;
+	margin-bottom: 15px;
+}
+#text-end h7{
+/*	margin-top: 25px;*/
+	font-family: "GoodDog Cool", "GoodDog Plain";
+	font-size: 23px;
+	color: #aac078;
+}
+#icon-socail{
+	float: left;
+	margin-left: 139px;	 
+	margin-top: 38px;
+}
+#icon-socail img{
+	margin-left: 25px;
+}
+footer{
+	height: 323px;
+	width: 1440px;
+	background-color: #45493b;
+	color: white;
+}
+#footer-l{
+	width: 341px;
+	height: 144px;
+/*	background: red;*/
+	float: left;
+	margin-top: 72px;
+	margin-left: 178px;
+}
+#footer-r{
+	float: right;
+	width: 487px;
+	height: 185px;
+/*	background: blue;*/
+	margin-top: 72px;
+	margin-right: 235px;
+}
+.ft-col{
+	float: left;
+	margin-left: 72px;
+}
+.ft-col h1{
+	margin-bottom: 53px;
+	font-size: 19px;
+}
+.ft-col h2{
+	font-size: 18px;
+	line-height: 23px;
+}
+#footer-l h1{
+	font-size: 24px;
+}
+#footer-l p{
+	font-size: 17px;
+	margin-top: 50px;
+}
+.ft-col h3{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+}
+
+.From{
+	width: 1440px;
+	height:329px;
+	font-family: 'Montserrat', sans-serif;
+/*	background: red;*/
+}
+.box-1{
+	width: 480px;
+	height: 454px;
+/*	background: #000000;*/
+	float: left;
+}
+.box-1 input{
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-left: 100px;
+	font-size: 18px;
+	margin-top: 90px;
+}
+.box-1a input{
+	font-size: 18px;
+	margin-left: 100px;
+	margin-top: 72px;
+}
+.box-2{
+	width: 480px;
+	height: 454px;
+/*	background: #000000;*/
+	float: left;
+}
+.box-2 input{
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-left: 100px;
+	font-size: 18px;
+	margin-top: 90px;
+}
+.box-2a input{
+	font-size: 18px;
+	margin-left: 100px;
+	margin-top: 72px;
+}
+.box-2b input{
+	font-size: 18px;
+	margin-left: 100px;
+	margin-top: 72px;
+}
+.box-3{
+	width: 480px;
+	height: 454px;
+/*	background: #000000;*/
+	float: left;
+}
+.box-3 input{
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-left: 100px;
+	font-size: 18px;
+	margin-top: 90px;
+}
+.box-3a input{
+	font-size: 18px;
+	margin-left: 100px;
+	margin-top: 72px;
+}
+#page5 h1{
+	color: white;
+	font-family: "GoodDog Cool", "GoodDog Plain";
+	font-size: 50px;
+	text-align: center;
+	padding-top: 50px;
+}
+table{
+			border-collapse: collapse;
+	position: relative;
+	z-index: 4000;
+			
+		}
+		table td{
+      padding-top:64px;
+      border-radius: 5px;
+		}
+table td b{
+	color: white;
+	
+}
+		.cs-input{
+			width: 234px;
+			border-radius: 6px;
+			border: 2px solid #FFFFFF;
+			background-color: transparent;
+			color: white;
+		}
+.people{
+  width:234px;
+  padding-left:0;
+	border-radius: 6px;
+	border: 2px solid #FFFFFF;
+	background-color: transparent;
+	color: white;
+}
+.cs-submit{
+  width:234px;
+	
+  display: none;
+}
+.cs-submit1{
+	width:234px;
+	border-radius: 6px;
+	border: 2px solid #FFFFFF;
+	background-color: transparent;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+.o-r-1{
+  padding-left: 167px;
+}
+.o-r{
+	padding-left: 100px;
+}
